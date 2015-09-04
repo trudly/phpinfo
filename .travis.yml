@@ -2,9 +2,11 @@ language: php
 node_js:
 - '5.5'
 script: echo hi
-sudo: required'
+sudo: required
 deploy:
-  edge: true
+  edge:
+    source: jsloyer/dpl
+    branch: add-cloudfoundry-plugin-support
   provider: cloudfoundry
   api: https://api.eu-gb.bluemix.net
   username:
@@ -17,3 +19,7 @@ deploy:
   on:
     branch: master
     repo: IBM-Bluemix/phpinfo
+  plugin:
+    url: github.com/concourse/autopilot
+    installCommand: $GOPATH/bin/autopilot
+    command: zero-downtime-push
