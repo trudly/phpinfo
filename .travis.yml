@@ -16,9 +16,9 @@ deploy:
     secure: CtVCjWuiVXGetCM0defP2b6WiSDP2UgkGUbVKkMn1RrGdqILKzIq/0G30gqyxGYlH3C0J1vsWhGzEfrbgMp8k1hZnaQYs9Bq3vUxVBYDCUpHmfNz9mNKcYgSLiR7XgUYFhF1ODX8Nnl8qSmJtPiKU0I5ysA8BsxqB/PU0a3tN14X0UklnNpFh/WV/Pr/jHmU58Kbsq/r31piWf7B5E3qjJMndTPVjmMfvUy6A1cnKS1wBfMICC8EFmcKaRSHA5kWz/hIGUojHMCHBPTvmrtQFrUSe+o26nrkFCVM0dlfcZa7Rtm7DWYhRikzaRG1OXTDwBEMql2Q4Ofm6L1HZb23O3Uic2MrLxorxL+sUay2b5gz6EbfWUeaNX4YvC6hyp7QFrzQk1/rd9hRjCeKGbFbAo1gNVZwVvcg2JoOBVj7Q/H0Db2H42cgTEtoV6rvnlNBdnHXWRC0yCXG0O2LxV/EYTpyV7OUCLNWyaFR0c1r8BURfwzmGk/2WXqp6WfBrUNxX6Xo2Lc/9oX/N2OIzhbDDXdX4UpBLRUFqTpOp7WHOGFfs/67xHtCuK+P5XNrerHqWMyp+U+7Smt4/pmuq6e5W3UvvJwjsJk2VO3PyQHtwIhsxlql4U1EuRqu4GSlRpypmd0SBWUH9c3PFwR2JhTI3Fz9ga3A88K7VQdSxnYQAZo=
   organization: Dev-Advocates
   space: demos
-  pluginUrl: github.com/concourse/autopilot
-  pluginInstallCommand: $GOPATH/bin/autopilot
-  pluginCommand: zero-downtime-push
+  pluginurl: github.com/concourse/autopilot
+  plugininstallcommand: $GOPATH/bin/autopilot
+  plugincommand: zero-downtime-push
   on:
     branch: master
     repo: IBM-Bluemix/phpinfo
