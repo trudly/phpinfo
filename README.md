@@ -7,7 +7,7 @@ This sample is super usefull for debugging PHP issues and errors.
 
 Click the following button
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM-Bluemix/phpinfo.git)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/trudly/phpinfo.git)
 
 or
 
